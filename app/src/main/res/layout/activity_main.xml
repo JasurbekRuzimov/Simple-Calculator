@@ -7,7 +7,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -37,9 +36,20 @@
         android:gravity="bottom">
 
         <include
+            layout="@layout/buttons_layout"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            layout="@layout/buttons_layout"/>
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="2dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:visibility="visible" />
 
     </RelativeLayout>
 
